@@ -1,15 +1,15 @@
 class ClaudeStatusLine < Formula
   desc "Status line renderer for Claude Code"
   homepage "https://github.com/lawther/claude_status_line"
-  version "0.4.0"
+  version "0.5.0"
 
   if OS.mac?
     if Hardware::CPU.intel?
       url "https://github.com/lawther/claude_status_line/releases/download/claude_status_line-v#{version}/claude_status_line-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "58c2e622f02eb8fe8729a5433f4dcab973c680032529213dc3b4f205c0b0d0e9"
+      sha256 "9ac2dfb63d26b92992eb20cc0b501b2ad8ca48251ad3b9cdfd5ffd857be1a1b3"
     elsif Hardware::CPU.arm?
       url "https://github.com/lawther/claude_status_line/releases/download/claude_status_line-v#{version}/claude_status_line-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "cef2c5afe6c02d32d0bdbc1a88f34879101c028da84216267e042f45cf1f4cc6"
+      sha256 "c76963e3a6f66a41e157ecda385f44ae5da09efb1be9c03d63755d53c92231d1"
     end
   end
 
